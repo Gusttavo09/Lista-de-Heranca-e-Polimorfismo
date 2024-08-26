@@ -1,18 +1,10 @@
 class Funcionario {
-    private String nome;
-    private int codigoFuncional;
+    private final String nome;
+    private final int codigoFuncional;
 
     public Funcionario(String nome, int codigoFuncional) {
         this.nome = nome;
         this.codigoFuncional = codigoFuncional;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public int getCodigoFuncional() {
-        return codigoFuncional;
     }
 
     @Override
